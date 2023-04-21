@@ -19,7 +19,7 @@ const server = http.createServer((req, res) => {
         res.setHeader('Content-Type', 'text/plain;charset=utf-8');
         res.end('404 页面不存在！');
     }
-  });
+});
 
 // 监听指定端口，服务器启动后输出对应的提示信息
 server.listen(port, () => {
